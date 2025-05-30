@@ -1,3 +1,5 @@
+
+
 import time
 import tweepy
 from openai import OpenAI
@@ -9,7 +11,7 @@ client = OpenAI(api_key=OPENAI_API_KEY)
 TWITTER_BEARER_TOKEN = "AAAAAAAAAAAAAAAAAAAAAIGoyQEAAAAA6FV002lTBisaecQfeW3d%2FurkgKM%3Dx5LVqPmrZeGwqD74H0aClcl8uoIXs1qyjMBzzGmg7T7q3yUFWP"
 
 # OpenAI API Key
-OPENAI_API_KEY = "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"
+# OPENAI_API_KEY = "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"
 
 # List of hashtags to append
 HASHTAGS = "#zelena #zeudi #helena #helevier #Tommavi #shailenzo #sstvidf #GrandeFratello #MAGA"

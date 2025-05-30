@@ -1,7 +1,7 @@
 # test open api ki api
 
 from openai import OpenAI
-OPENAI_API_KEY = "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"
+# OPENAI_API_KEY = ""
 client = OpenAI(api_key=OPENAI_API_KEY)
 
 
