@@ -1,0 +1,9 @@
+
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(á¸³Ù8ÈÜ¯‚ê2
+L
+java:S1197"*Move the array designators [] to the type.(¡şÏÖøÿÿÿÿ8ßÜ¯‚ê2
+C
+java:S1481!"&Remove this unused "v" local variable.(¿ÿ¿8ÔöÈì2
+]	java:S125""<This block of commented-out lines of code should be removed.(‘ëğüÿÿÿÿ8ÔöÈì2
+J
+java:S2447E"-Null is returned but a "Boolean" is expected.(¥¹ï8ëÜ¯‚ê2

@@ -1,0 +1,10 @@
+
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ªèâò
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ŞŸşÿÿÿÿ
+E
+java:S1197"*Move the array designators [] to the type.(¡şÏÖøÿÿÿÿ
+A
+java:S1481"+Remove this unused "minSum" local variable.(—£šû
+E	java:S106"+Replace this use of System.out by a logger.(´‹¹öşÿÿÿÿ
+h
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(ó…Ï

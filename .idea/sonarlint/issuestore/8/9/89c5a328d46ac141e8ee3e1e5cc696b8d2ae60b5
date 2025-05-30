@@ -1,0 +1,12 @@
+
+
+java:S1319"mThe type of "adjecencyList" should be an interface such as "List" rather than the implementation "ArrayList".(”‚ß…úÿÿÿÿ8ğ²Èå2
+
+java:S1319("mThe type of "adjecencyList" should be an interface such as "List" rather than the implementation "ArrayList".(Šá™¤şÿÿÿÿ8ğ²Èå2
+n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÜŒ©Üøÿÿÿÿ8ñ²Èå2
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(×Şªÿÿÿÿÿ8ñ²Èå2
+L
+java:S1197"*Move the array designators [] to the type.(¡şÏÖøÿÿÿÿ8ÿ²Èå2
+G	java:S106"+Replace this use of System.out by a logger.(Ù©È±8³Èå2
+I
+java:S1125 "'Remove the unnecessary boolean literal.(ú†Ûûúÿÿÿÿ8‚³Èå2

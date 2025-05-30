@@ -1,0 +1,6 @@
+
+K
+java:S1066"/Merge this if statement with the enclosing one.(¥8ªğÇ¿æ2
+r	java:S117
+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ëÌ†ùÿÿÿÿ8ªğÇ¿æ2
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(×Şªÿÿÿÿÿ8«ğÇ¿æ2

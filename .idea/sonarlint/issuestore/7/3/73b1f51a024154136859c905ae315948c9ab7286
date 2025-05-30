@@ -1,0 +1,12 @@
+
+Š
+java:S1319""mThe type of "adjecencyList" should be an interface such as "List" rather than the implementation "ArrayList".(ôÆ¼†8”ÚÎ™å2
+‹
+java:S13197"nThe type of "adjececncyList" should be an interface such as "List" rather than the implementation "ArrayList".(ßõĞõ8”ÚÎ™å2
+h	java:S101	"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ûÒD8•ÚÎ™å2
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(×Şªÿÿÿÿÿ8—ÚÎ™å2
+i
+java:S12237"LRename this method to prevent any misunderstanding or make it a constructor.(ßõĞõ8—ÚÎ™å2
+]	java:S125"<This block of commented-out lines of code should be removed.(§àñÂûÿÿÿÿ8©ÚÎ™å2
+G	java:S106"+Replace this use of System.out by a logger.(Ù©È±8«ÚÎ™å2
+G	java:S106"+Replace this use of System.out by a logger.(Ù©È±8ßÎ×™å2

@@ -1,0 +1,28 @@
+
+P
+java:S1121!".Extract the assignment out of this expression.(ê´ñ†øÿÿÿÿ8ùæ¾Õ2
+P
+java:S1121#".Extract the assignment out of this expression.(ÖíÙ†şÿÿÿÿ8úæ¾Õ2
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Éç‡ç8ûæ¾Õ2
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–ä’§8ûæ¾Õ2
+m	java:S117'"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒÕÎÒ8ûæ¾Õ2
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ŞŸşÿÿÿÿ8ıæ¾Õ2
+L
+java:S1197"*Move the array designators [] to the type.(º ìıÿÿÿÿ8³è¾Õ2
+L
+java:S1197
+"*Move the array designators [] to the type.(ÀÇˆ…ùÿÿÿÿ8³è¾Õ2
+L
+java:S1197"*Move the array designators [] to the type.(«²´±şÿÿÿÿ8´è¾Õ2
+L	java:S106"+Replace this use of System.out by a logger.(–İ Çıÿÿÿÿ8´è¾Õ2
+]	java:S125"<This block of commented-out lines of code should be removed.(âäü‡ıÿÿÿÿ8¾è¾Õ2
+G
+java:S1197"*Move the array designators [] to the type.(–ä’§8¾è¾Õ2
+G
+java:S1197"*Move the array designators [] to the type.(–ä’§8¾è¾Õ2
+G
+java:S1197'"*Move the array designators [] to the type.(ƒÕÎÒ8Âè¾Õ2
+G
+java:S1197'"*Move the array designators [] to the type.(ƒÕÎÒ8Âè¾Õ2
+O
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8Åè¾Õ2

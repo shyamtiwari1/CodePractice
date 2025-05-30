@@ -1,0 +1,22 @@
+
+r
+java:S1104"PMake INFO a static final constant or non-public and provide accessors if needed.(‹‡ßœÿÿÿÿÿ8·¦™îí2
+s
+java:S1104"QMake ERROR a static final constant or non-public and provide accessors if needed.(Ã²´èûÿÿÿÿ8¸¦™îí2
+m
+java:S1104"QMake DEBUG a static final constant or non-public and provide accessors if needed.(€Ž§8¸¦™îí2
+L
+java:S1444"*Make this "public static INFO" field final(‹‡ßœÿÿÿÿÿ8¸¦™îí2
+M
+java:S1444"+Make this "public static ERROR" field final(Ã²´èûÿÿÿÿ8¸¦™îí2
+G
+java:S1444"+Make this "public static DEBUG" field final(€Ž§8¸¦™îí2
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ó…õÝ8¸¦™îí2
+q
+java:S3008"ORename this field "INFO" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹‡ßœÿÿÿÿÿ8º¦™îí2
+r
+java:S3008"PRename this field "ERROR" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ã²´èûÿÿÿÿ8º¦™îí2
+l
+java:S3008"PRename this field "DEBUG" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€Ž§8º¦™îí2
+£
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(…—ÏÄúÿÿÿÿ8ì°¾îí2
