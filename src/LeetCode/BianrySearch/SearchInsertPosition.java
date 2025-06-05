@@ -5,6 +5,9 @@ You must write an algorithm with O(log n) runtime complexity.
 * */
 
 public class SearchInsertPosition {
+
+
+//    https://leetcode.com/problems/search-insert-position/description/
     public static void main(String args[]){
         int[] nums = {1,3,5,6};
         int target = 7;

@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class SqrtX {
+//    https://leetcode.com/problems/sqrtx/description/
     public static void main(int args[]){
         int x = 5;
         List<Integer> squares = new ArrayList<>();

@@ -63,7 +63,7 @@ public class GuessTheNumberHigherOrLower {
                 right = mid - 1;
             }
         }
-        return right; // The number of complete rows
+        return right;
     }
 
 }

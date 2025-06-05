@@ -7,6 +7,8 @@ public class EqualSumPartition {
         System.out.println(equalSumPartitionTopDown(arr, sum1, arr.length));
     }
 
+//    https://leetcode.com/problems/partition-equal-subset-sum/description/
+
 
     public static boolean equalSumPartitionRecursive(int arr [] , int sum , int n ){
         if(sum ==0 ){

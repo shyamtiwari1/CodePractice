@@ -13,6 +13,7 @@ public class ThreeSum {
     int arr[] = new int[]{-1,0,1,2,-1,-4};
 
         System.out.println(threeSumBruteForce(arr));
+        System.out.println(threeSum(arr));
 
     }
     public static List<List<Integer>> threeSumBruteForce(int[] nums) {
@@ -37,11 +38,11 @@ public class ThreeSum {
     }
 
 //nums[i]+nums[j] +nums[k] = 0
-    public List<List<Integer>> threeSum(int[] nums) {
+    public  static List<List<Integer>> threeSum(int[] nums) {
         Arrays.sort(nums);
         int n = nums.length;
         List<List<Integer>> res = new ArrayList<>();
-        for(int i = 0 ; i< n ; i++){
+        for(int i = 1 ; i< n ; i++){
 
             if(nums[i]==nums[i-1]){
                 continue;
