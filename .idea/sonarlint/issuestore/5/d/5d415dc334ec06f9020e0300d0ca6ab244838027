@@ -1,8 +1,8 @@
 
 {	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(×Şªÿÿÿÿÿ8ŠƒÀ¶æ2
 L
-java:S1197	"*Move the array designators [] to the type.(¡şÏÖøÿÿÿÿ8ÁƒÀ¶æ2
-L	java:S106"+Replace this use of System.out by a logger.(ş¯óóûÿÿÿÿ8ÂƒÀ¶æ2
-G	java:S106"+Replace this use of System.out by a logger.(¨ñòœ8Úæö·æ2
+java:S1197"*Move the array designators [] to the type.(¡şÏÖøÿÿÿÿ8ÁƒÀ¶æ2
+L	java:S106"+Replace this use of System.out by a logger.(ş¯óóûÿÿÿÿ8ÂƒÀ¶æ2
+G	java:S106"+Replace this use of System.out by a logger.(¨ñòœ8Úæö·æ2
 o
-java:S3776"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(İ¨Ô8Ûæö·æ2
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(İ¨Ô8Ûæö·æ2

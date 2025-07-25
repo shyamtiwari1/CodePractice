@@ -21,11 +21,15 @@ public class bfs {
         int src = 0;
         ArrayList<Integer> ans = (ArrayList<Integer>) bfsTraversal(adj, src);
         ArrayList<Integer> ans1 = (ArrayList<Integer>) bfs(adj, src);
+        ArrayList<Integer> ans2 = (ArrayList<Integer>) bfsTraversalagain(adj, src);
         for (int i : ans) {
             System.out.print(i + " ");
         }
 
         for (int i : ans1) {
+            System.out.print(i + " ");
+        }
+        for (int i : ans2) {
             System.out.print(i + " ");
         }
     }
@@ -71,4 +75,29 @@ public class bfs {
         return ans;
 
     }
+
+
+    public static List<Integer> bfsTraversalagain(ArrayList<ArrayList<Integer>> adjececncyList , int baseNode){
+        List<Integer> ans = new ArrayList<>();
+        Queue<Integer> fifo = new LinkedList<>();
+        fifo.add(baseNode);
+        int [] vis = new int[adjececncyList.size()];
+        vis[baseNode] = 0;
+        Arrays.fill(vis , -1);
+        while(!fifo.isEmpty()){
+            int top = fifo.poll();
+            ans.add(top);
+            List<Integer> adjecentElement = adjececncyList.get(top);
+            for(int i : adjecentElement){
+                if(vis[i]==-1){
+                    fifo.add(i);
+                    vis[i] = 0;
+                }
+            }
+        }
+        return ans;
+    }
+
+
+
 }

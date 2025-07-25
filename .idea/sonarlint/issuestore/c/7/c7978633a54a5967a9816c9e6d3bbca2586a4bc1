@@ -1,0 +1,11 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÅÀ“ˆ
+V
+java:S35180";Make sure "len" can't be zero before doing this modulation.(”„Âîûÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.(¯øş
+:
+java:S1659K"Declare "j" on a separate line.(ı²ïºÿÿÿÿÿ
+A
+java:S1481K"&Remove this unused "i" local variable.(ı²ïºÿÿÿÿÿ
+A
+java:S1481K"&Remove this unused "j" local variable.(ı²ïºÿÿÿÿÿ

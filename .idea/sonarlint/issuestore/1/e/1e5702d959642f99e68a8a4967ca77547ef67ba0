@@ -1,0 +1,10 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÅÀ“ˆ
+:
+java:S1659"Declare "j" on a separate line.(ı²ïºÿÿÿÿÿ
+;
+java:S1659"%Declare "currans" on a separate line.(íç
+B
+java:S1481",Remove this unused "currans" local variable.(íç
+B
+java:S1905"'Remove this unnecessary cast to "long".( Ş­»ûÿÿÿÿ

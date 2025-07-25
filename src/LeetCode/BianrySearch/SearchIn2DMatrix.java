@@ -2,7 +2,7 @@ package LeetCode.BianrySearch;
 
 public class SearchIn2DMatrix {
 
-//    https://leetcode.com/problems/search-a-2d-matrix/description/?envType=problem-list-v2&envId=binary-search
+//    https://leetcode.com/problems/search-a-2d-matrix/description/
 
 
 

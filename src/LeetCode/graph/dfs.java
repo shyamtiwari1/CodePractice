@@ -17,7 +17,15 @@ public class dfs {
         boolean [] visited = new boolean[adj.size()];
         List<Integer> ans = new ArrayList<>();
         List<Integer> ans1 = dfsTraversal(adj, src , visited , ans);
+        List<Integer> ans2 = dfsTraversal1(adj, src , visited , ans);
+        List<Integer> ans3 = dfsTraversal2(adj, src , visited , ans);
         for (int i : ans1) {
+            System.out.print(i + " ");
+        }
+        for (int i : ans2) {
+            System.out.print(i + " ");
+        }
+        for (int i : ans3) {
             System.out.print(i + " ");
         }
 
@@ -46,5 +54,18 @@ public class dfs {
             }
         }
         return ans;
+    }
+
+    public static List<Integer> dfsTraversal2(ArrayList<ArrayList<Integer>> adjecencyList , int baseNode , boolean[] visited , List<Integer> ans){
+        visited[baseNode] = true;
+        ans.add(baseNode);
+        for(int i : adjecencyList.get(baseNode)){
+            if(!visited[i]){
+                dfsTraversal2(adjecencyList , i , visited , ans);
+            }
+
+        }
+        return ans;
+
     }
 }

@@ -5,7 +5,7 @@ import java.util.List;
 
 public class RecoverBinarySearchTree {
 
-//    https://leetcode.com/problems/recover-binary-search-tree/description/?envType=problem-list-v2&envId=tree
+//    https://leetcode.com/problems/recover-binary-search-tree/description/
 
 
     // here we're doing inorder traversal and then there arises two cases , if the misplaced nodes are adjecent or not

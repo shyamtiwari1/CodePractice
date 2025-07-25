@@ -1,15 +1,15 @@
 
 v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÅÀ“ˆ8ß·Ôô¶2
 L
-java:S1197"*Move the array designators [] to the type.(¡şÏÖøÿÿÿÿ8‹¸Ôô¶2
+java:S1197"*Move the array designators [] to the type.(¡şÏÖøÿÿÿÿ8‹¸Ôô¶2
 G
-java:S1197"*Move the array designators [] to the type.(İèİ€8‹¸Ôô¶2
+java:S1197"*Move the array designators [] to the type.(İèİ€8ª–éç‚3
 H
-java:S1481"&Remove this unused "m" local variable.(¶Áşÿÿÿÿÿ8‹¸Ôô¶2
+java:S1481"&Remove this unused "m" local variable.(¶Áşÿÿÿÿÿ8‹¸Ôô¶2
 L
-java:S1197"*Move the array designators [] to the type.(¬‚¡àıÿÿÿÿ8‹¸Ôô¶2
+java:S1197"*Move the array designators [] to the type.(¬‚¡àıÿÿÿÿ8‹¸Ôô¶2
 C
-java:S1481"&Remove this unused "n" local variable.(“âÃ8‹¸Ôô¶2
+java:S1481	"&Remove this unused "n" local variable.(“âÃ8‹¸Ôô¶2
 o
-java:S3776"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(¬Åª°8Œ¸Ôô¶2
-L	java:S106-"+Replace this use of System.out by a logger.(ìÄêøÿÿÿÿ8¸Ôô¶2
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(¬Åª°8Œ¸Ôô¶2
+L	java:S106."+Replace this use of System.out by a logger.(ìÄêøÿÿÿÿ8¸Ôô¶2

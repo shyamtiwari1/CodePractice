@@ -7,8 +7,8 @@ java:S1197"*Move the array designators [] to the type.(¹°¦Ãÿÿÿÿÿ
 @	java:S106"+Replace this use of System.out by a logger.(ÎÑ²Ú
 ?	java:S106"+Replace this use of System.out by a logger.(ŸÕ†
 @
-java:S1197"*Move the array designators [] to the type.(ÜÇİ‚
+java:S1197"*Move the array designators [] to the type.(ÜÇİ‚
 @
-java:S1197"*Move the array designators [] to the type.(øÙô‹
+java:S1197"*Move the array designators [] to the type.(øÙô‹
 G
-java:S1197",Move the array designators [][] to the type.(ÕøÆÃùÿÿÿÿ
+java:S1197",Move the array designators [][] to the type.(ÕøÆÃùÿÿÿÿ

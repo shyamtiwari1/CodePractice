@@ -1,6 +1,7 @@
 package LeetCode.TwoPointer;
 
 public class numberOfSubstringContainingAllThreeCharacter {
+//    https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/
 
     public static void main (String args[]){
         String s = "abcabc";

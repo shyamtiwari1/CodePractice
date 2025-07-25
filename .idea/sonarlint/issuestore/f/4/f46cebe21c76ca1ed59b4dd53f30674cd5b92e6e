@@ -1,11 +1,0 @@
-
-{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‡áº´úÿÿÿÿ8®šŒ“ñ2
-U
-java:S2589"8Remove this expression which always evaluates to "false"(‚»±8ÊšŒ“ñ2
-L
-java:S1197"*Move the array designators [] to the type.(¡şÏÖøÿÿÿÿ8ÎšŒ“ñ2
-G
-java:S1197"*Move the array designators [] to the type.(ÍÃî¾8ÎšŒ“ñ2
-G	java:S106"+Replace this use of System.out by a logger.(ˆşøõ8ĞšŒ“ñ2
-?
-java:S16591"#Declare "right" on a separate line.(£Õ«b8ÚšŒ“ñ2

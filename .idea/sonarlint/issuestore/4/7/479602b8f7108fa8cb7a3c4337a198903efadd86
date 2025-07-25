@@ -1,7 +1,0 @@
-
-{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(…ÖÁüÿÿÿÿÿ8ÒÆ÷µ2
-`
-java:S2583"DChange this condition so that it does not always evaluate to "false"(œ”Ù^8İÆ÷µ2
-L
-java:S1197"*Move the array designators [] to the type.(¡şÏÖøÿÿÿÿ8ßÆ÷µ2
-L	java:S106"+Replace this use of System.out by a logger.(µÏ…èùÿÿÿÿ8áÆ÷µ2

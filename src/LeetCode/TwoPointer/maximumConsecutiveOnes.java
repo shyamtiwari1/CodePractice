@@ -1,6 +1,8 @@
 package LeetCode.TwoPointer;
 
 public class maximumConsecutiveOnes {
+
+    //https://leetcode.com/problems/max-consecutive-ones-iii/
     public static void main(String args[]){
         int [] arr = new int[]{1,1,1,0,0,0,1,1,1,1,0};
         int k = 2;

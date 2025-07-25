@@ -50,7 +50,6 @@ public class InorderTraversal {
             inorder(root.left , ans);
             ans.add(root.val);
             inorder(root.right, ans);
-
     }
 
 }

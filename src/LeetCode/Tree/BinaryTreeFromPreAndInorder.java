@@ -4,7 +4,7 @@ import java.util.HashMap;
 
 public class BinaryTreeFromPreAndInorder {
 
-//    https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/?envType=problem-list-v2&envId=oizxjoit
+//    https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
 
 
 

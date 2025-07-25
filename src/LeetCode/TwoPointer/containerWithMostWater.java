@@ -2,7 +2,7 @@ package LeetCode.TwoPointer;
 
 public class containerWithMostWater {
 
-//    https://leetcode.com/problems/container-with-most-water/description/?envType=problem-list-v2&envId=oizxjoit
+//    https://leetcode.com/problems/container-with-most-water/description/
 
     public int maxArea(int[] height) {
         int n = height.length ;

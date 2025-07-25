@@ -1,7 +1,7 @@
 package LeetCode.Tree;
 
 public class SymmetricTree {
-//    https://leetcode.com/problems/symmetric-tree/description/?envType=problem-list-v2&envId=tree
+//    https://leetcode.com/problems/symmetric-tree/description/
 
     // first check value of child nodes , then call recursively for
 //    & check for (child1 .left , child2.right) && (child1 .right , child2.left)

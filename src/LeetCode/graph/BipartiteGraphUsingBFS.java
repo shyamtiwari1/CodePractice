@@ -6,6 +6,8 @@ import java.util.Queue;
 
 public class BipartiteGraphUsingBFS {
 
+//    https://leetcode.com/problems/is-graph-bipartite/
+
     public static void main(String args[]){
         int[][] graph = new int[][]{{1,2,3},{0,2},{0,1,3},{0,2}};
         int[][] graph2 = new int[][]{{1,3},{0,2},{1,3},{0,2}};

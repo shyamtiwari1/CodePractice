@@ -47,4 +47,21 @@ public class detectCycleInGraphDFS {
         return false;
 
     }
+
+
+
+    public static boolean detectCycleUSingDfsagain(List<List<Integer>> adjList, int baseNode, int parent, boolean[] visited){
+        visited[baseNode] = true;
+        for(int i : adjList.get(baseNode)){
+            if(visited[i] &&  i != parent){
+                return true;
+            }
+            if(!visited[i]){
+                visited[i] = true;
+                detectCycleUSingDfsagain(adjList , i ,baseNode , visited );
+            }
+        }
+        return false;
+
+    }
 }

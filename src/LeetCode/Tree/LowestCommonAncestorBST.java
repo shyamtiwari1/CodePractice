@@ -2,7 +2,7 @@ package LeetCode.Tree;
 
 public class LowestCommonAncestorBST {
 
-//    https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/?envType=problem-list-v2&envId=oizxjoit
+//    https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree
 
 
 

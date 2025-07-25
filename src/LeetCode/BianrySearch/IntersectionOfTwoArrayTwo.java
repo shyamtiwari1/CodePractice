@@ -8,6 +8,8 @@ import java.util.Map;
 import java.util.Set;
 
 public class IntersectionOfTwoArrayTwo {
+
+//    https://leetcode.com/problems/intersection-of-two-arrays-ii/description/
     public static  void  main(String args[]){
         int[] nums1 = {9,4,9,8,4};
         int[] nums2 = {4,9,5};

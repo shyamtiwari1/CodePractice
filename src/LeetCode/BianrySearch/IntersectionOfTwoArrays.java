@@ -47,11 +47,7 @@ public class IntersectionOfTwoArrays {
     public static int[] intersection(int[] nums1, int[] nums2) {
 
         /*
-        * Input: nums1 = [1,2,2,1], nums2 = [2,2]
-Output: [2]
-* o(logn)*n -> O(nlogn)
-* o(n)*o(n) -> O(n2)
-* thus use ninary search ofr search of everyelemt
+        * This is the solution using binary search , but binary search is efficeient for large data sets , normal hashset can also be used
         *
         *
         * */
