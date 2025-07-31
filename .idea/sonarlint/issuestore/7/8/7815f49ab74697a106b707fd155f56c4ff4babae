@@ -1,12 +1,12 @@
 
 {	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(…ÖÁüÿÿÿÿÿ8ÿ¢Šóµ2
 L
-java:S1197"*Move the array designators [] to the type.(¡şÏÖøÿÿÿÿ8ù£Šóµ2
-L	java:S106"+Replace this use of System.out by a logger.(…”Æ‰ÿÿÿÿÿ8¡Å‹óµ2
+java:S1197"*Move the array designators [] to the type.(¡şÏÖøÿÿÿÿ8ù£Šóµ2
+L	java:S106"+Replace this use of System.out by a logger.(…”Æ‰ÿÿÿÿÿ8¡Å‹óµ2
 V
-java:S2864*"4Iterate over the "entrySet" instead of the "keySet".(º¾¤Šûÿÿÿÿ8ı£Šóµ2
+java:S2864,"4Iterate over the "entrySet" instead of the "keySet".(º¾¤Šûÿÿÿÿ8ı£Šóµ2
 L
-java:S11974"*Move the array designators [] to the type.(¨Ÿ—ıÿÿÿÿ8ş£Šóµ2
+java:S11976"*Move the array designators [] to the type.(¨Ÿ—ıÿÿÿÿ8ş£Šóµ2
 J
 java:S1128".Remove this unused import 'java.util.HashSet'.(Ê‚êX8§Å‹óµ2
 L

@@ -2,7 +2,7 @@ package LeetCode.Tree;
 
 public class ValidateBinarySearchTree {
 
-//    https://leetcode.com/problems/validate-binary-search-tree/description/?envType=problem-list-v2&envId=tree
+//    https://leetcode.com/problems/validate-binary-search-tree/description/
 
 
 
