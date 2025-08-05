@@ -18,7 +18,6 @@ public class LinkedListCycle2 {
  *
  *
  */
-    /
     public class Solution {
         public ListNode detectCycle(ListNode head) {
 

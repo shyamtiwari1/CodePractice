@@ -1,15 +1,30 @@
-package LeetCode.DP;
+package LeetCode.DP.OneD;
 
 public class JumpGame {
 //    https://leetcode.com/problems/jump-game/?envType=problem-list-v2&envId=oizxjoit
     // recursion and memoization
         public boolean canJump(int[] nums) {
             Boolean[] dp = new Boolean[nums.length];
-            return recursion (nums , 0 , nums.length , dp);
+            return memoization(nums , 0 , nums.length , dp);
 
         }
 
-        public boolean recursion (int[] nums , int currIndex , int n  , Boolean[] dp){
+
+    public boolean recursion(int[] nums , int index){
+        if(index >=nums.length-1){
+            return true;
+        }
+
+        int maxJump = nums[index];
+        for(int jump = 1 ; jump <=maxJump ;jump++){
+            if(recursion(nums , jump+index)){
+                return true;
+            }
+        }
+        return false;
+    }
+
+        public boolean memoization(int[] nums , int currIndex , int n  , Boolean[] dp){
             if(currIndex>=n-1){
                 return true;
             }
@@ -19,7 +34,7 @@ public class JumpGame {
             int maxJump = nums[currIndex];
 
             for(int i = 1 ; i <=maxJump;i++){
-                if(recursion(nums, i+currIndex , n  , dp)){
+                if(memoization(nums, i+currIndex , n  , dp)){
                     dp[currIndex] = true;
                     return true;
                 }

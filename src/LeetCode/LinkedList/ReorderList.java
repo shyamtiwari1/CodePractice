@@ -1,7 +1,7 @@
 package LeetCode.LinkedList;
 
 public class ReorderList {
-//    https://leetcode.com/problems/reorder-list/description/?envType=problem-list-v2&envId=oizxjoit
+//    https://leetcode.com/problems/reorder-list/description/
 
 
 
