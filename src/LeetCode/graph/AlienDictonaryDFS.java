@@ -5,7 +5,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-public class AlienDictonary {
+public class AlienDictonaryDFS {
 
     public static  void main(String args[]){
         String[] words = new String []{"caa", "aaa", "aab"};

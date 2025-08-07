@@ -1,6 +1,6 @@
 package LeetCode.Array;
 
-public class MAxProductSubarray {
+public class MaxProductSubarray {
 //    https://leetcode.com/problems/maximum-product-subarray/description/?envType=problem-list-v2&envId=oizxjoit
 
 

@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class LongestIncreasingSubsequence {
 
-//    https://leetcode.com/problems/longest-increasing-subsequence/description/?envType=problem-list-v2&envId=binary-search
+//    https://leetcode.com/problems/longest-increasing-subsequence/description/
 
 
 // memoization
