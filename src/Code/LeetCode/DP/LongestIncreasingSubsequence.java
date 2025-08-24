@@ -7,6 +7,15 @@ public class LongestIncreasingSubsequence {
 //    https://leetcode.com/problems/longest-increasing-subsequence/description/
 
 
+    public static void main(String[] args) {
+
+        int[] nums = new int[]{10,9,2,5,3,7,101,18};
+        System.out.println(purerecursion(nums));
+    }
+
+    // there is also bianry search +greedy approcah to it
+
+
 // memoization
 
     public int lengthOfLIS(int[] nums) {
@@ -36,4 +45,28 @@ public class LongestIncreasingSubsequence {
         return dp[currIndex][prevIndex+1] =  Math.max(include , exclude);
 
     }
+
+
+
+
+
+        public static  int purerecursion(int[] nums) {
+            return recursion(nums, nums.length-1, -1);
+
+        }
+
+
+        public static int recursion(int []nums, int currindex , int previndex){
+            if(currindex<0)return 0;
+
+            int nottake = recursion(nums, currindex-1, previndex);
+
+            int take = 0 ;
+            if(previndex==-1 || nums[currindex]<nums[previndex]){
+                take  = 1+recursion(nums, currindex-1 ,currindex );
+            }
+
+            return Math.max(take, nottake);
+        }
+
 }

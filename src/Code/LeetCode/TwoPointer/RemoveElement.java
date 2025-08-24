@@ -6,11 +6,28 @@ public class RemoveElement {
         int[] nums = {0,1,2,2,3,0,4,2};
         int xm  = removeElement(nums , 2);
         System.out.println(xm);
+        System.out.println(removeElementOptimal(nums , 2));
 
     }
 /*
 * {3,2,2,3} - > {2 , 2, ...,  ... }
 * */
+
+
+
+
+    public static int removeElementOptimal(int[] nums, int val) {
+        int i = 0; // slow pointer
+
+        for (int j = 0; j < nums.length; j++) { // fast pointer
+            if (nums[j] != val) {
+                nums[i] = nums[j];
+                i++;
+            }
+        }
+
+        return i; // new length
+    }
     public static int removeElement(int[] nums, int val) {
         int i =0 ;
         int j =0 ;

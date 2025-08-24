@@ -68,4 +68,17 @@ public class dfs {
         return ans;
 
     }
+
+
+    public static List<Integer> dfstraversal3(List<List<Integer>> adjList , int baseNode , boolean[]visited , List<Integer> ans){
+        visited[baseNode] = true;
+        ans.add(baseNode);
+        for(int i : adjList.get(baseNode)){
+            if(!visited[i]){
+                dfstraversal3(adjList , i , visited , ans);
+            }
+        }
+        return ans;
+    }
+
 }

@@ -1,0 +1,9 @@
+1. bfs
+2. dfs
+3. https://leetcode.com/problems/rotting-oranges/description/ - maintain time in queue along with node
+4. detect cycle using bfs in undirected graph  - maintain the current parent in queue along with node
+5. detect cycle using dfs in undirected graph - maintain parent in recursive call
+6. number of distinct island -  https://www.geeksforgeeks.org/problems/number-of-distinct-islands/1
+7. bipartite graph - bfs
+8. bipartite graph - dfs
+9. detect cycle in directed graph

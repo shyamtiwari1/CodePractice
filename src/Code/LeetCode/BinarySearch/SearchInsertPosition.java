@@ -15,33 +15,30 @@ public class SearchInsertPosition {
         System.out.println(x);
     }
 
+
         public static int searchInsert(int[] nums, int target) {
-            int startIndex = 0 ;
-            int lastIndex = nums.length-1;
-            int nearestSmallest = nums[lastIndex];
-            int nearestSmallestIndex = lastIndex;
-            while(startIndex<= lastIndex){
-                int mid = (startIndex+lastIndex)/2;
-                if(nums[mid] == target){
-                    return mid;
+
+            int i = 0;
+            int n = nums.length;
+            int j = n - 1;
+            int ans = -1;
+
+            while (i <= j) {
+                int mid = i + (j - i) / 2;
+                if (nums[mid] == target) {
+                    ans = mid;
+                    return ans;
+                } else if (nums[mid] > target) {
+                    j = mid - 1;
+                } else {
+                    ans = mid;
+                    i = mid + 1;
                 }
-                if(nums[mid] < target){
-                    startIndex = mid+1;
-                }
-                if(nums[mid] >target){
-                    lastIndex = mid-1;
-                }
-                nearestSmallest = Math.min(nearestSmallest , nums[mid]);
-                nearestSmallestIndex = mid;
 
             }
-            if(nums[nearestSmallestIndex]<target){
-                return nearestSmallestIndex+1;
-            }else{
-                return nearestSmallestIndex;
-            }
-
+            return ans + 1;
 
         }
+    }
 
-}
+
