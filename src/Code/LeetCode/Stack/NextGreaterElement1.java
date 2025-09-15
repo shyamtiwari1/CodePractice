@@ -14,8 +14,6 @@ public class NextGreaterElement1 {
  * stack is greater than the last elemt in stack if yes we pop that elemt and put both of them into a map as key value
  * since all ememnts are unique map can be used , and then we push that elemt in stack as well to get the maximim for it as well
  *O(M+n) solution
- *
- *
  */
 
 

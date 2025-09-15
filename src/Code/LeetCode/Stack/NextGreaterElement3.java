@@ -16,6 +16,52 @@ public class NextGreaterElement3 {
      */
 
 
+
+    public static void main(String[] args) {
+        System.out.println(nextGreaterElement1(12443322));
+    }
+
+
+
+
+
+        public static int nextGreaterElement1(int x) {
+
+            char[] arr = String.valueOf(x).toCharArray();
+            int n = arr.length;
+            int i = n-2;
+
+            while(i>=0 && arr[i]>=arr[i+1] ){
+                i--;
+            }
+            if(i==-1)return -1;
+            int j = n-1 ;
+            while(j>i && arr[i]>=arr[j]){
+                j--;
+            }
+
+            char temp = arr[i];
+            arr[i] = arr[j];
+            arr[j] = temp ;
+
+            String res = "";
+            for(int l=0;l<=i;l++){
+                res+=arr[l];
+            }
+            for(int l = n-1;l>i;l--){
+                res+=arr[l];
+            }
+
+            long val = Long.parseLong(new String(res));
+
+            if(val<=Integer.MAX_VALUE){
+                return (int)val;
+            }else return -1;
+
+    }
+
+
+
     class Solution {
         public int nextGreaterElement(int x) {
             char[] arr  = String.valueOf(x).toCharArray();

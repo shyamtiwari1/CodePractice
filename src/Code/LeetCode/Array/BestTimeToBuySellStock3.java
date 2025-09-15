@@ -4,7 +4,7 @@ public class BestTimeToBuySellStock3 {
 //    https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/
 
 /***
- * using two loops from both end to calculate the transactions , then combing ing the result
+ * using two loops from both end to calculate the transactions , then combinging the result
  *
  *
  */

@@ -23,17 +23,23 @@ public class kthLargestElementInArray {
         }
 
 
-    public int findKthLargest(int[] nums, int k) {
+    public String kthLargestNumberoptimal(String[] nums, int k) {
 
-        PriorityQueue<Integer> minheap = new PriorityQueue<>();
-        for(int num : nums){
-            minheap.offer(num);
-            if(minheap.size()>k){
-                minheap.poll();
-            }
+        // Arrays.sort(nums , (a,b) -> b.compareTo(a));
+
+
+        PriorityQueue<String> pq = new PriorityQueue<>((a,b)-> {
+            if(a.length()!= b.length())return Integer.compare(a.length() , b.length());
+            return a.compareTo(b);
+        });
+
+
+        for(String i : nums){
+            pq.add(i);
+            while(pq.size()>k)pq.poll();
         }
-        return minheap.peek();
 
+        return pq.peek();
 
     }
 }

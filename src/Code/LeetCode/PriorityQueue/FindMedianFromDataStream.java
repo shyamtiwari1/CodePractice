@@ -9,7 +9,7 @@ public class FindMedianFromDataStream {
     //https://leetcode.com/problems/find-median-from-data-stream/description/
 
     /***
-     *here we'll use two heaps one min heap and ine max heap
+     *here we'll use two heaps one min heap and one max heap
      * all elements in small heap is always gonna be less than or equal to all elemnt of large heap
      * difference in size of two heap will not be greater than 1
      * if size diff is more than 1 then take out largest elemtn of min heap and add to large heap

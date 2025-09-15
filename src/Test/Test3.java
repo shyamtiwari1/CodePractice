@@ -1,5 +1,7 @@
 package Test;
 
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Scanner;
 
 public class Test3 {
@@ -44,11 +46,15 @@ public class Test3 {
                     }
                 }
             }
+            Map<Integer,Integer> map = new HashMap<>();
+//            map.computeIfAbsent();
 
             if (!found) {
                 System.out.println(-1);
             }
         }
     }
+
+
 
 }

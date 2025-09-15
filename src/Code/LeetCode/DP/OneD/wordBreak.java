@@ -51,5 +51,7 @@ public class wordBreak {
             }
             return dp[start] = false;
         }
+
+        // here time complexity is O(n**2) may degrade to o(n**3) in case of substring overhead
     }
 }
