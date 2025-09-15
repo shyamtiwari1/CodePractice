@@ -1,0 +1,15 @@
+package MachineCoding.BookMyShow.Models;
+
+import MachineCoding.BookMyShow.Enums.PaymentStatus;
+
+import java.time.LocalDateTime;
+
+public abstract class Payment {
+
+    int amount ;
+    LocalDateTime timestamp ;
+    PaymentStatus paymentStatus;
+
+
+    public abstract boolean makePayemnt();
+}
