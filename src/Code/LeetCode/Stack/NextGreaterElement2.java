@@ -1,6 +1,7 @@
 package Code.LeetCode.Stack;
 
 import java.util.Arrays;
+import java.util.Stack;
 
 public class NextGreaterElement2 {
 //    https://leetcode.com/problems/next-greater-element-ii/description/
@@ -30,6 +31,24 @@ public class NextGreaterElement2 {
 
             }
             return res ;
+        }
+    }
+
+
+
+    public int[] nextgreaterelements(int[] nums) {
+
+        int n = nums.length;
+        int[] res = new int[n];
+
+        Stack<Integer> stack = new Stack<>();
+
+        for(int i = 0 ; i < 2*n ; i++){
+
+            int idx = i%n;
+            while(!stack.isEmpty() && nums[stack.peek()] < nums[]){
+                res
+            }
         }
     }
 }

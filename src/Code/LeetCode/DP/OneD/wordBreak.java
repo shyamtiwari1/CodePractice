@@ -1,5 +1,6 @@
 package Code.LeetCode.DP.OneD;
 
+import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
@@ -54,4 +55,40 @@ public class wordBreak {
 
         // here time complexity is O(n**2) may degrade to o(n**3) in case of substring overhead
     }
+
+//TC : O(N**3) , O(n) states
+//O(n) split positions per state
+//O(n) substring creation cost
+//    O(n) - SC
+
+        public boolean wordBreak(String s, List<String> wordDict) {
+            Set<String> wordset = new HashSet<>();
+            int[] dp = new int[s.length()];
+            Arrays.fill(dp,-1);
+            for(String x : wordDict){
+                wordset.add(x);
+            }
+
+            return recursion(s,0,wordset,dp)==1;
+
+        }
+
+
+        public int recursion(String s,int currindex,Set<String>wordset, int[]dp){
+
+            if(currindex==s.length())return 1;
+
+            if(dp[currindex]!=-1)return dp[currindex];
+            for(int i = currindex+1;i<=s.length();i++){
+                String word = s.substring(currindex,i);
+
+                if(wordset.contains(word) &&  recursion(s, i,wordset,dp)==1){
+                    return dp[currindex] = recursion(s, i,wordset,dp);
+                }
+
+            }
+
+            return dp[currindex] =0;
+
+        }
 }

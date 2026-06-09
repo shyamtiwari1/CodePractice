@@ -3,7 +3,7 @@ package Code.LeetCode.Array;
 public class MaximumSubarray {
 
 
-//    kadane algo
+//    kadane algorithm
 
 //    https://leetcode.com/problems/maximum-subarray/description/
 
