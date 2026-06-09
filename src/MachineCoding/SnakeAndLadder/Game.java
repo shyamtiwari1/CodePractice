@@ -1,5 +1,7 @@
 package MachineCoding.SnakeAndLadder;
 
+import Code.TicTacToe.Player;
+
 import java.util.Queue;
 
 public class Game {

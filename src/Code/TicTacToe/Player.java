@@ -5,7 +5,7 @@ public class Player {
     public String name;
     public Symbol symbol;
 
-    public Player(String shyam, Symbol symbol) {
+    public Player(String shyam) {
         this.name = shyam;
         this.symbol = symbol;
     }
@@ -21,6 +21,10 @@ public class Player {
     }
 
 
+    public void setPosition(int nextPos) {
+    }
 
-
+    public int getPosition() {
+        return 1;
+    }
 }
