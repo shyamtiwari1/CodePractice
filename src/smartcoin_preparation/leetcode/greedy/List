@@ -1,0 +1,60 @@
+GREEDY ROADMAP
+
+Completed
+---------
+
+1. Can Place Flowers (#605)
+   Pattern: Local Feasibility Greedy
+
+2. Assign Cookies (#455)
+   Pattern: Greedy Matching
+
+3. Jump Game (#55)
+   Pattern: Reachability Greedy
+
+4. Jump Game II (#45)
+   Pattern: Range Expansion Greedy
+
+5. Gas Station (#134)
+   Pattern: Restart Logic Greedy
+
+6. Non-overlapping Intervals (#435)
+   Pattern: Interval Scheduling
+
+7. Minimum Number of Arrows to Burst Balloons (#452)
+   Pattern: Interval Scheduling
+
+8. Partition Labels (#763)
+   Pattern: Boundary Expansion
+
+9. Task Scheduler (#621)
+   Pattern: Frequency Greedy
+
+
+Remaining High-Value Greedy
+---------------------------
+
+10. Furthest Building You Can Reach (#1642)
+    Pattern: Resource Allocation Greedy + Heap
+
+11. Remove K Digits (#402)
+    Pattern: Monotonic Stack Greedy
+
+12. Reorganize String (#767)
+    Pattern: Heap Greedy
+
+13. Queue Reconstruction by Height (#406)
+    Pattern: Construction Greedy
+
+
+Optional Advanced Greedy
+------------------------
+
+14. Hand of Straights (#846)
+    Pattern: Ordered Grouping Greedy
+
+15. Course Schedule III (#630)
+    Pattern: Greedy + Heap
+
+16. IPO (#502)
+    Pattern: Project Selection Greedy
