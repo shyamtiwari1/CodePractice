@@ -1,0 +1,23 @@
+package smartcoin_preparation.leetcode.arrays;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class TwoSum {
+
+
+
+    public int[] twoSum(int[] nums, int target) {
+
+        Map<Integer , Integer> mpp = new HashMap<>();
+        for(int i= 0 ; i<nums.length;i++){
+
+            if(mpp.containsKey(target-nums[i]) &&  mpp.get(target-nums[i])!=i )return new int[]{i, mpp.get(target-nums[i])};
+            mpp.put(nums[i] , i );
+        }
+        return null ;
+
+
+
+    }
+}
